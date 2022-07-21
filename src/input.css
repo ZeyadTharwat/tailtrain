@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-bar-item {
+    @apply
+    hover:text-emerald-500
+    text-gray-400 
+    font-semibold
+    transition
+    duration-300
+    text-lg
+}
